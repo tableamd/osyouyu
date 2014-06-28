@@ -1,0 +1,21 @@
+<head>
+<style type="../static/css">  
+<!-- 
+    body {
+    background: url(0000003.jpg) repeat 0 0;
+}
+-->  
+</style>  
+</head>
+<!-- Bootstrap core CSS -->
+<link rel=stylesheet type=text/css href="/static/css/bootstrap.min.css">
+<!-- Bootstrap theme -->
+<link rel=stylesheet type=text/css href="/static/css/bootstrap-theme.min.css">
+<link rel=stylesheet type=text/css href="/static/css/oreore.css">
+
+<div class="jumbotron">
+	<h1>さあ、おしょうゆかけよう。</h1>
+	<p>おしょうゆかけたい人の素敵なソリューションができました。世界初、おしょうゆをかけるクラウドサービスの登場です。
+		あなたもかけませんか？</p>
+	<p><a class="btn btn-primary btn-lg" role="button" href="{{ url_for('osyoyu') }}">お醤油をかけにいく</a></p>
+</div>
